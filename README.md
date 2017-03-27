@@ -1,5 +1,5 @@
 # Port Scan Detector
-### This application works on a pcap file and real-time performing active port scanning.
+This application works on a pcap file and real-time performing active port scanning.
 
 The following types of port scans are going to be performed:
 
@@ -26,7 +26,9 @@ The following parameters of the socket interface were the most useful:
 
 Other tools such as Kali, Wireshark, nmap, bash scripts, and tcpdump were also used for testing and training purposes.
 
-## The logic is to look at the first 10 consecutive packets that are transferred / captured within 5000 milliseconds.
+# Logic
+
+The logic is to look at the first 10 consecutive packets that are transferred / captured within 5000 milliseconds.
 
 Algorithms were created to recognize the type of scan by analyzing the host's pcap TCP dump file.
 
