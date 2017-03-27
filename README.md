@@ -1,5 +1,5 @@
 # Port Scan Detector
-# This application works on a pcap file and real-time performing active port scanning.
+### This application works on a pcap file and real-time performing active port scanning.
 
 The following types of port scans are going to be performed:
 
